@@ -1,0 +1,277 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Grizzly Garges//Calendrier//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Grizzly Garges – Saison 2026-2027
+X-WR-TIMEZONE:Europe/Paris
+X-WR-CALDESC:Matchs de l’équipe première des Grizzly Garges (Division 
+ 3)
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:grizzly-garges-83606@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20261003T200000
+DTEND;TZID=Europe/Paris:20261003T223000
+SUMMARY:🏒 Grizzly Garges vs Rouen 2
+LOCATION:Patinoire intercommunale\, Garges-lès-Gonesse
+DESCRIPTION:Match à domicile de l’équipe première (Division 3).\nEntr
+ ée gratuite · Restauration sur place.\nRER D\, arrêt Garges – Sarcel
+ les\, puis 3 min à pied.\nAllez les Grizzly ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-83637@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20261010T203000
+DTEND;TZID=Europe/Paris:20261010T230000
+SUMMARY:🏒 Compiègne vs Grizzly Garges (extérieur)
+LOCATION:Patinoire\, Compiègne
+DESCRIPTION:Match à l’extérieur de l’équipe première (Division 3).
+ \nSupporters\, faites le déplacement ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-83669@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20261017T180000
+DTEND;TZID=Europe/Paris:20261017T203000
+SUMMARY:🏒 Dammarie-lès-Lys vs Grizzly Garges (extérieur)
+LOCATION:Patinoire\, Dammarie-lès-Lys
+DESCRIPTION:Match à l’extérieur de l’équipe première (Division 3).
+ \nSupporters\, faites le déplacement ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-83704@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20261024T200000
+DTEND;TZID=Europe/Paris:20261024T223000
+SUMMARY:🏒 Grizzly Garges vs Meudon 2
+LOCATION:Patinoire intercommunale\, Garges-lès-Gonesse
+DESCRIPTION:Match à domicile de l’équipe première (Division 3).\nEntr
+ ée gratuite · Restauration sur place.\nRER D\, arrêt Garges – Sarcel
+ les\, puis 3 min à pied.\nAllez les Grizzly ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-83829@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20261114T200000
+DTEND;TZID=Europe/Paris:20261114T223000
+SUMMARY:🏒 Grizzly Garges vs Asnières
+LOCATION:Patinoire intercommunale\, Garges-lès-Gonesse
+DESCRIPTION:Match à domicile de l’équipe première (Division 3).\nEntr
+ ée gratuite · Restauration sur place.\nRER D\, arrêt Garges – Sarcel
+ les\, puis 3 min à pied.\nAllez les Grizzly ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-83897@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20261128T200000
+DTEND;TZID=Europe/Paris:20261128T223000
+SUMMARY:🏒 Grizzly Garges vs Caen 2
+LOCATION:Patinoire intercommunale\, Garges-lès-Gonesse
+DESCRIPTION:Match à domicile de l’équipe première (Division 3).\nEntr
+ ée gratuite · Restauration sur place.\nRER D\, arrêt Garges – Sarcel
+ les\, puis 3 min à pied.\nAllez les Grizzly ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-83766@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20261206T125500
+DTEND;TZID=Europe/Paris:20261206T152500
+SUMMARY:🏒 Caen 2 vs Grizzly Garges (extérieur)
+LOCATION:Patinoire\, Caen
+DESCRIPTION:Match à l’extérieur de l’équipe première (Division 3).
+ \nSupporters\, faites le déplacement ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-83958@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20261212T200000
+DTEND;TZID=Europe/Paris:20261212T223000
+SUMMARY:🏒 Grizzly Garges vs Champigny
+LOCATION:Patinoire intercommunale\, Garges-lès-Gonesse
+DESCRIPTION:Match à domicile de l’équipe première (Division 3).\nEntr
+ ée gratuite · Restauration sur place.\nRER D\, arrêt Garges – Sarcel
+ les\, puis 3 min à pied.\nAllez les Grizzly ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-84021@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20270109T200000
+DTEND;TZID=Europe/Paris:20270109T223000
+SUMMARY:🏒 Grizzly Garges vs Compiègne
+LOCATION:Patinoire intercommunale\, Garges-lès-Gonesse
+DESCRIPTION:Match à domicile de l’équipe première (Division 3).\nEntr
+ ée gratuite · Restauration sur place.\nRER D\, arrêt Garges – Sarcel
+ les\, puis 3 min à pied.\nAllez les Grizzly ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-84053@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20270116T175000
+DTEND;TZID=Europe/Paris:20270116T202000
+SUMMARY:🏒 Évry Viry 2 vs Grizzly Garges (extérieur)
+LOCATION:Patinoire\, Évry
+DESCRIPTION:Match à l’extérieur de l’équipe première (Division 3).
+ \nSupporters\, faites le déplacement ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-84085@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20270123T203000
+DTEND;TZID=Europe/Paris:20270123T230000
+SUMMARY:🏒 Asnières vs Grizzly Garges (extérieur)
+LOCATION:Patinoire\, Asnières-sur-Seine
+DESCRIPTION:Match à l’extérieur de l’équipe première (Division 3).
+ \nSupporters\, faites le déplacement ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-84149@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20270206T200000
+DTEND;TZID=Europe/Paris:20270206T223000
+SUMMARY:🏒 Grizzly Garges vs Évry Viry 2
+LOCATION:Patinoire intercommunale\, Garges-lès-Gonesse
+DESCRIPTION:Match à domicile de l’équipe première (Division 3).\nEntr
+ ée gratuite · Restauration sur place.\nRER D\, arrêt Garges – Sarcel
+ les\, puis 3 min à pied.\nAllez les Grizzly ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-84183@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20270213T180000
+DTEND;TZID=Europe/Paris:20270213T203000
+SUMMARY:🏒 Metz vs Grizzly Garges (extérieur)
+LOCATION:Patinoire\, Metz
+DESCRIPTION:Match à l’extérieur de l’équipe première (Division 3).
+ \nSupporters\, faites le déplacement ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-84212@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20270220T200000
+DTEND;TZID=Europe/Paris:20270220T223000
+SUMMARY:🏒 Rouen 2 vs Grizzly Garges (extérieur)
+LOCATION:Patinoire\, Rouen
+DESCRIPTION:Match à l’extérieur de l’équipe première (Division 3).
+ \nSupporters\, faites le déplacement ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-84242@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20270227T200000
+DTEND;TZID=Europe/Paris:20270227T223000
+SUMMARY:🏒 Grizzly Garges vs Dammarie-lès-Lys
+LOCATION:Patinoire intercommunale\, Garges-lès-Gonesse
+DESCRIPTION:Match à domicile de l’équipe première (Division 3).\nEntr
+ ée gratuite · Restauration sur place.\nRER D\, arrêt Garges – Sarcel
+ les\, puis 3 min à pied.\nAllez les Grizzly ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grizzly-garges-84276@grizzlygarges
+DTSTAMP:20261116T164608Z
+DTSTART;TZID=Europe/Paris:20270313T183000
+DTEND;TZID=Europe/Paris:20270313T210000
+SUMMARY:🏒 Champigny vs Grizzly Garges (extérieur)
+LOCATION:Patinoire\, Champigny-sur-Marne
+DESCRIPTION:Match à l’extérieur de l’équipe première (Division 3).
+ \nSupporters\, faites le déplacement ! 🐻
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Match des Grizzly demain !
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

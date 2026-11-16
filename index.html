@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calendrier des Grizzly Garges</title>
+<style>
+:root{--bg:#04112F;--ink:#F1F9FA;--muted:#9DCEEA;--sky:#59B3E2;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{height:100%}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,sans-serif;display:flex;align-items:center;justify-content:center;padding:32px 20px}
+main{max-width:460px;width:100%;display:flex;flex-direction:column;gap:14px}
+h1{margin:0 0 4px;font-size:40px;line-height:1;letter-spacing:-.03em;text-transform:uppercase}
+h1 span{color:var(--sky)}
+p{margin:0 0 10px;color:var(--muted);font-size:17px;line-height:1.45}
+a.btn{display:flex;align-items:center;justify-content:center;min-height:56px;padding:0 20px;border-radius:12px;background:var(--sky);color:#04112F;font-weight:800;font-size:18px;text-decoration:none}
+a.btn.alt{background:transparent;color:var(--ink);border:2px solid var(--sky)}
+a.btn:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+small{color:var(--muted);font-size:14px;line-height:1.4;margin-top:6px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Tous les matchs <span>dans ton agenda</span></h1>
+  <p>Les matchs de l’équipe première des Grizzly Garges, saison 2026-2027. Ton agenda se met à jour tout seul si un match bouge.</p>
+  <a class="btn" id="apple" href="#">iPhone, Mac ou Outlook</a>
+  <a class="btn" id="google" href="#">Google Agenda</a>
+  <a class="btn alt" id="file" href="grizzly-garges.ics" download>Télécharger le fichier</a>
+  <small>Les matchs à domicile sont à la patinoire de Garges : entrée gratuite, restauration sur place.</small>
+</main>
+<script>
+  const path = '/grizzly-garges.ics';
+  const webcal = 'webcal://' + location.host + path;
+  document.getElementById('apple').href = webcal;
+  document.getElementById('google').href = 'https://calendar.google.com/calendar/render?cid=' + encodeURIComponent(webcal);
+</script>
+</body>
+</html>
